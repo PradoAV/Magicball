@@ -31,7 +31,7 @@ answers = [
 	loop do
 			puts "Задай мне вопрос ..."
 			question = gets.chomp.to_s
-			
+			sleep 1
 			puts answers.sample
 			sleep 2
   break if question == ""
